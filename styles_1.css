@@ -1,0 +1,198 @@
+@font-face
+{
+    font-family: chivoBold;
+    src:url(font/Chivo-Bold.otf);
+}
+@font-face
+{
+    font-family: chivoBlack;
+    src:url(font/Chivo-Black.otf);
+}
+
+@font-face
+{
+    font-family: chivoLight;
+    src:url(font/Chivo-Light.otf);
+}
+
+@font-face
+{
+    font-family: chivoReg;
+    src:url(font/Chivo-Regular.otf);
+}
+
+html { font-size: calc(1em + 1vw) }
+
+body 
+{    
+    background: white;
+    margin:0;
+    padding-top:2%;
+    color:white;    
+    font-family: chivoLight;
+    width:100vw !important;
+}
+
+a
+{
+    color:#1E406A;
+}
+
+a:hover
+{
+    color:white;
+    text-decoration: none;
+}
+
+p
+{
+    margin:0;
+}
+
+.divContent
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:60vh 40vh;
+}
+
+.divMenu
+{
+    /* background-color:#3972C2; */
+    height: 50px;          
+    width:inherit;    
+}
+
+.menu
+{
+    width:30%;
+    margin:auto 20%;
+    display:grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;      
+}
+
+.tagMassaDirecto
+{
+    background-color:#1E406A;
+    padding:1vw;
+    margin:auto auto;    
+    width:fit-content;
+    height: fit-content;
+    font-size: 0.5em;
+    font-family: chivoBold;
+}
+
+.divRedesSociales
+{
+    font-size: 0.7em;
+    margin: auto 0;
+    width:58%;    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
+
+.divTop
+{
+    background-image: url(img/massaDirecto.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: fit-content;        
+    border:solid red;   
+    /* width: 80%; */
+    /* margin:0 auto;  */
+}
+
+.divHome
+{
+    /* display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    height: fit-content; */
+    width:58vw;
+}
+
+.divTextHome
+{
+    color:#1E406A;
+    font-size:1.5em;
+    /* width:40%; */
+    /* text-align: left; */
+    /* margin:auto; */
+    margin: 0 0 0 2em;
+}
+
+.divGridFormulario
+{
+    background-color: #3972C2;
+}
+/* 
+.divFormulario
+{
+    width:50%;
+    margin:auto;
+    padding:2vw;
+} */
+
+.formulario
+{
+    margin:0 2vw 0 2vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 4%;
+}
+
+.titleFormulario
+{
+    font-size:2vw;
+    padding:4vw;
+}
+
+.form-control
+{
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius:0%;
+    padding:2vw 0;    
+}
+
+.form-control::-moz-placeholder {
+    color: white;
+  }
+  .form-control:-ms-input-placeholder {
+    color: white;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: white;
+  }
+
+
+.textBottomForm
+{
+    width:fit-content;
+    margin:auto;
+}
+
+.btnEnviarDatos
+{
+    border: solid 1px white;
+    width: fit-content;
+    padding: 0.5vw 1.5vw;
+    font-size:1.5vw;
+    margin:4vw auto;    
+}
+
+.divMensajeBottom
+{
+    background-color:#1D3F6A;
+}
+
+.mensajeBottom
+{
+    font-size:2vw;
+    padding:3vw;
+    margin:auto;
+    width:fit-content;
+}

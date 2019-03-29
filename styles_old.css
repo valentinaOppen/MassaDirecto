@@ -1,0 +1,240 @@
+@font-face
+{
+    font-family: chivoBold;
+    src:url(font/Chivo-Bold.otf);
+}
+@font-face
+{
+    font-family: chivoBlack;
+    src:url(font/Chivo-Black.otf);
+}
+
+@font-face
+{
+    font-family: chivoLight;
+    src:url(font/Chivo-Light.otf);
+}
+
+@font-face
+{
+    font-family: chivoReg;
+    src:url(font/Chivo-Regular.otf);
+}
+
+body 
+{    
+    background: #f5f7f8;
+    margin:0;
+    color:white;    
+    font-family: chivoLight;
+    width:100vw !important;
+}
+
+a
+{
+    color:white;
+}
+
+a:hover
+{
+    color:#1E406A;
+    text-decoration: none;
+}
+
+p
+{
+    margin:0;
+}
+
+.divContent
+{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:70px auto auto auto;
+}
+
+.divMenu
+{
+    background-color:#3972C2;
+    height: 70px;          
+    width:inherit;
+}
+
+.menu
+{
+    width:90%;
+    margin:auto auto;
+    display:grid;
+    height: 100%;
+    grid-template-columns: 50% 50%;      
+}
+
+.tagMassaDirecto
+{
+    background-color:#1E406A;
+    padding:1vw;
+    margin:auto auto;
+    text-align: left;
+    width:fit-content;
+    height: fit-content;
+}
+
+.tagMassaDirectoBottom
+{
+    /* background-color:#1E406A; */
+    padding:1vw;
+    margin:auto auto;
+    text-align: left;
+    width:fit-content;
+    height: fit-content;
+}
+
+.divRedesSociales
+{
+    font-size: 2vw;
+    margin: auto auto;
+    width:50%;    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
+
+.divHome
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40% 60%;
+    height: fit-content;
+    width:100vw;
+}
+
+.divTextHome
+{
+    color:#1E406A;
+    font-size:2.5vw;
+    width:40%;
+    text-align: center;
+    margin:auto;
+}
+
+.fotoHome
+{    
+    background-image: url(img/massaDirecto.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:80%;
+    height: 80vh;
+    margin:auto;
+}
+
+.divGaleriaVideos
+{
+    background-color:#5AB7BC;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    height: fit-content;
+}
+
+.titleVideos
+{
+    font-size:3vw;
+    margin:auto;
+    padding:3vw;
+}
+
+.divGridVideos
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width:90%;
+    margin:auto auto;
+}
+
+.divVideo
+{
+    width:fit-content;
+    margin:auto;
+}
+
+.btnMasVideos
+{
+    border: solid 1px white;
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    font-size:1.5vw;
+    margin:4vw auto;    
+}
+
+.divGridFormulario
+{
+    background-color: #3972C2;
+}
+
+.divFormulario
+{
+    width:50%;
+    margin:auto;
+    padding:2vw;
+}
+
+.formulario
+{
+    margin:0 2vw 0 2vw;
+}
+
+.titleFormulario
+{
+    font-size:2vw;
+    padding:4vw;
+}
+
+.form-control
+{
+    background-color:transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius:0%;
+    padding:2vw 0;    
+}
+
+.form-control::-moz-placeholder {
+    color: white;
+  }
+  .form-control:-ms-input-placeholder {
+    color: white;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: white;
+  }
+
+
+.textBottomForm
+{
+    width:fit-content;
+    margin:auto;
+}
+
+.btnEnviarDatos
+{
+    border: solid 1px white;
+    width: fit-content;
+    padding: 0.5vw 1.5vw;
+    font-size:1.5vw;
+    margin:4vw auto;    
+}
+
+.divMensajeBottom
+{
+    background-color:#1D3F6A;
+}
+
+.mensajeBottom
+{
+    font-size:2vw;
+    padding:3vw;
+    margin:auto;
+    width:fit-content;
+}
