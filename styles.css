@@ -21,6 +21,30 @@
     src:url(font/Chivo-Regular.otf);
 }
 
+.lastVideo
+{
+    display: none;
+}
+
+.divMenuMobile
+{
+    display:none;
+}
+
+.divGaleriaVideosMobile
+{
+    display: none;
+}
+
+.btnMasVideosMobile
+{
+    display:none;   
+}
+
+.divMenuMobile
+{
+    display:none;
+}
 
 .fotoHome
 {
@@ -105,9 +129,9 @@ p
 
 .divRedesSociales
 {
-    font-size: 0.7em;
+    font-size: 1em;
     margin: auto 0;
-    width:58%;    
+    width:71%;    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;    
 }
@@ -125,6 +149,7 @@ p
 .divHome
 {
     width:60vw;
+    height: 40vh;
 }
 
 
@@ -132,14 +157,15 @@ p
 {
     color:#1E406A;
     font-size:1.3em;
-    margin: 0 0 0 3em;
+    margin: 2em 0 0 3.5em;
 }
 
 
 .divGridFormulario
 {
     background-color: #3972C2;
-    padding-bottom:2rem;
+    padding-bottom:0.3rem;
+    padding-top:1rem;
 }
 
 .divFormulario
@@ -251,48 +277,163 @@ p
 
     .divGaleriaVideos
     {
-        background-color:#5AB7BC;
+        background-color:#5AB7BC !important;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         height: fit-content;
-        padding-bottom:2rem;
+        padding-bottom:1.5rem;
     }
 
-    .divTitleBtnVideos
-    {
-        display: flex;
-    }
+.divTitleBtnVideos
+{
+    display: flex;
+    width:83%;
+    margin:0 auto;    
+}
 
 .titleVideos
 {
     font-size:1.2em;
-    margin:auto;
-    padding:3vw;
+    /* margin:auto; */
+    padding:1em 0 1em 0em;
+    white-space: nowrap;
 }
 
 .divGridVideos
 {
-    width:80%;
-    display: grid;    
-    grid-template-columns: repeat(auto-fill, minmax(300px, 230px));
-    column-gap: 1%;    
+    width: 83%;
     margin:auto auto;
+    /* display: grid;        
+    grid-template-columns: 1fr 1fr 1fr;    
+    column-gap: 1%;        
+    height: fit-content;     */
+
 }
 
 .divVideo
+{  
+    padding:0.5em;  
+    width: 32%;
+    display: inline-block;
+}
+
+.divVideoMobile
+{  
+    padding:0.5em;  
+    width: 100%;
+    display: inline-block;
+}
+
+.divVideoContainer
 {
-    width:fit-content;
-    margin:auto;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.divVideoMobileContainer
+{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+
+.videoOculto
+{
+    display:none;
+}
+
+.videoOcultoMobile
+{
+    display: none;
+}
+
+iframe
+{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    /* width:40px; */
+}
+
+.divBtnMasVideos
+{
+    padding-top:1em;
 }
 
 .btnMasVideos
 {
-    font-size:.8em;
-    margin:4vw auto;        
+    font-size:.6em;
+    margin:auto auto;         
+    /* text-align: center !important; */
+    /* width: 75%; */
+    padding-top:1.5em;
+    border:solid 1px white;  
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5em 1em;       
+}
+
+.divBtnMenosVideos
+{
+    padding-top:1.5em;
+    display: none;
+}
+
+.divBtnMenosVideosMobile
+{
+    display: none;
+}
+
+.btnMenosVideos
+{
+    font-size:.6em;
+    margin:auto auto;         
+    /* text-align: center !important; */
+    /* width: 75%; */
+    padding-top:1.5em;
+    border:solid 1px white;  
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5em 1em;      
+     
 }
 
 .btnMasVideos a
 {
-    color:white;
+    color:white; 
 }
+
+.btnMenosVideos a
+{
+    color:white; 
+}
+
+.divMenuBottom
+{
+    background-color:#1D3F6A;
+    /* font-size:0.4em; */
+}
+
+.divRedesSocialesBottom a
+{
+    color:white !important;
+    /* font-size:1em;
+    padding:1em 0; */
+}
+
+.divRedesSocialesBottom
+{
+    width: 15%;
+    margin: auto 0 auto 4rem;
+    padding: 0.5em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+

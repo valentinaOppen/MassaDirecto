@@ -1,23 +1,412 @@
+
+@media screen and (max-width: 1440px)
+{
+    .fotoHome 
+    {    
+        right: 1em;
+    }
+
+}
+
+@media screen and (max-width: 1258px)
+{
+    .divHome {
+        width: 90vw;
+        padding-bottom:2em;
+        
+    }
+
+    /* .divGaleriaVideos
+    {
+        height: fit-content;
+    } */
+
+    /* .divGridVideos
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width:80%;
+        grid-template-rows: auto auto auto;
+        margin:auto auto;
+        row-gap: 4%;
+        height: fit-content;
+        height: 100%;
+        padding-bottom: 2.5em;
+        padding-left: 0em;        
+    } */
+
+    
+    /* .divVideo
+    {
+        height:100%;
+        width: auto;
+    } */
+/* 
+    iframe 
+    {
+        display: block; 
+        width: 100%;
+        height: 200%;
+        border: none;
+    } */
+
+    .divTitleBtnVideos {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .titleVideos
+    {
+        white-space: nowrap;
+    }
+
+    .lastVideo
+    {
+        display:unset;
+    }
+}
+
 @media screen and (max-width: 1024px)
 {
     .divGridVideos
     {
-        display: grid;
+        /* display: grid;
         grid-template-columns: 50% 50%;
         width:90%;
-        grid-template-rows: auto auto;
-        margin:auto auto;
+        grid-template-rows: auto auto auto;
+        margin:auto auto; */
+        /* padding-bottom: 12.5em; */
     }
+    .divRedesSociales
+    {
+        width: 80%;
+    }
+
+    .divVideo
+    {  
+        /* padding:0.5em;   */
+        width: 48% !important;
+        /* display: inline-block; */
+    }
+
 }
 
 @media screen and (max-width: 768px)
 {
-    .divGridVideos
+    .divHome
+    {
+        height: auto;
+    }
+
+    .divTextHome 
+    {                
+        margin: 1.5em 0 0 3.5em;
+    }
+
+    .menu
+    {
+        width: 40%;
+    }
+
+    /* .divGridVideos
     {
         display: grid;
         grid-template-columns: 1fr;
         width:90%;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        height: 320vh;
         margin:auto auto;
+        row-gap: 4%;        
+    } */
+
+    /* .divVideo
+    {
+        height: 50%;
+    } */
+
+
+    iframe 
+    {        
+        /* width: 100%; */
+        /* height: 250%;         */
+    }
+
+    .fotoHome 
+    {        
+        right: 0em;
+    }
+
+    #btnMasVideos
+    {
+        font-size: 1.5em;
+    }
+
+    #btnMenosVideos
+    {
+        font-size: 1.5em;        
+    }
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 767px) 
+{     
+    .divGaleriaVideos
+    {
+        display:none;
+    }
+
+    .videoOcultoMobile
+    {
+        display: none;
+    }
+
+    .divGaleriaVideosMobile
+    {
+        display:unset;
+    }
+
+    .divMenuBottom
+    {
+        display:none;
+    }
+
+    .divMenuMobile
+    {
+        display:unset;
+    }
+
+    a
+    {
+        color:white;
+    }
+
+    a:hover
+    {
+        color:#1E406A;
+        text-decoration: none;
+    }
+
+    body
+    {   
+        margin:0;
+        padding:0;
+
+    }
+
+    .divContent
+    {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:auto auto auto auto;
+    }
+
+    .divMenu
+    {
+        display: none;        
+    }
+
+    .divMenuMobile
+    {
+        display:flex;
+        background-color:#3972C2;
+        height: 85px;          
+        width:inherit;
+        margin: auto 0;
+    }
+
+    .menuMobile
+    {
+        width:90%;
+        margin:auto auto;
+        display:grid;
+        grid-template-columns: 60% 40%;;         
+        padding-top:0em;
+        
+    }
+
+    .tagMassaDirectoMobile
+    {
+        background-color:#1E406A;
+        padding:0.4em 1em;
+        /* margin:auto auto; */
+        text-align: left;
+        width:fit-content;
+        height: fit-content;
+        font-size:1em;
+    }
+
+    .divRedesSocialesMobile
+    {
+        font-size: 1.3em;
+        margin: auto auto;
+        width:90%;    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;    
+    }
+
+    .divHome
+    {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40% 60%;
+        height: fit-content;
+        width:100vw;
+        padding-bottom: 0em;
+        z-index: -2;
+    }
+
+    .divTextHome
+    {
+        color:#1E406A;
+        font-size:1.2em;
+        width:93%;
+        text-align: center;
+        margin:auto;
+        padding-top: 1.5rem;
+        padding-bottom:1.5em;
+    }
+
+    .fotoHome
+    {    
+        margin: auto auto;
+        position: relative;
+        right:0em;
+        width:100%;
+        z-index: -2;        
+    }
+
+    .divGaleriaVideosMobile
+    {
+        background-color:#5AB7BC;
+        display: inline-block;
+        width: 100%;
+        /* display: grid;
+        grid-template-columns: 1fr;         
+        grid-template-rows: 10em 15em 15em 10em;
+        row-gap: 2em;
+        height: 55em; */
+        padding-bottom:1em;
+        
+    }
+
+    .titleVideosMobile
+    {
+        font-size: 1.4em;
+        margin:auto;
+        padding:1.3em;
+    }
+
+    .divGridVideosMobile
+    {
+        /* display: grid;
+        grid-template-columns: 1fr; */
+        width:90%;
+        margin:auto auto;
+        /* grid-template-rows: auto auto;
+        margin:auto auto;
+        row-gap: 7%; */
+    }
+
+    .divVideoMobile
+    {
+        /* height: 15em; */
+        padding:0.5em;  
+        width: 100% !important;
+        display: inline-block;
+    }
+
+    .divVideoOcultoMobile
+    {
+        padding:0.5em;  
+        width: 100% !important;
+        display:none;
+    }
+
+    iframe
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+    }
+
+    .divBtnMasVideosMobile
+    {
+        padding-bottom:1em;
+    }
+
+    .btnMasVideosMobile
+    {
+        display:unset;
+        font-size:1em;
+        padding-top:2em;
+        border:solid 1px white;  
+        width: fit-content;
+        height: fit-content;
+        padding: 0.5em 1em;                
+        margin: 4.5em auto 2.5em auto;
+    }
+
+    .btnMasVideosMobile a
+    {
+        text-decoration: none;
+    }
+
+    .divFormulario
+    {
+        width:90%;        
+        margin: auto;
+    }
+
+    .titleFormulario
+    {
+        font-size: 1em;
+        padding: 1em 0em;
+    }
+
+    .formulario 
+    {
+        display: grid;
+        grid-template-columns: 1fr;                
+        grid-template-rows: auto;
+        padding-bottom: 2em;
+    }
+
+    .form-control
+    {
+        font-size:1em;
+    }
+    
+    .textBottomForm
+    {
+        font-size:0.9em;
+        width:100%;
+        margin: auto auto;
+        text-align: center;
+    }
+
+    .divBtnEnviarDatos
+    {
+        font-size: 0.7em;
+    }
+
+    .btnEnviarDatos
+    {
+        font-size:1.5em;
+        margin: auto auto;
+    }
+
+    .mensajeBottom
+    {
+        font-size: 0.8em;
+        margin: auto;
+        padding: 1em;
+        text-align: center;    
+        width:90%;  
+    }
+
+    .tagMassaDirectoBottomMobile
+    {
+        font-size: 1em;
     }
 }
